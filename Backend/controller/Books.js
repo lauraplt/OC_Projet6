@@ -1,5 +1,6 @@
 const Book = require('../models/book');
 const average = require('../utils/average');
+const path = require('path');
 const fs = require('fs');
 
 //POST to register a book 
